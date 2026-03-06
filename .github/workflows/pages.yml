@@ -14,9 +14,12 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+ 
+# 记得在Github -> Github Pages打开/upgrade
+# 启用自动部署功能
 env:
   SKIP_DEPLOY: true  # 🚫 临时关闭部署
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
