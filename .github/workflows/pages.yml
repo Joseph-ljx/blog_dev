@@ -14,6 +14,9 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  SKIP_DEPLOY: true  # 🚫 临时关闭部署
+  
 jobs:
   build:
     runs-on: ubuntu-latest
