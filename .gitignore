@@ -1,8 +1,32 @@
 .DS_Store
+
+# DB
 Thumbs.db
 db.json
+
+# LOG
 *.log
+
+# NPM modules
 node_modules/
+
+# Build docs
 public/
 .deploy*/
 _multiconfig.yml
+
+# Hexo cache
+.cache/
+*.tmp
+
+# Editor/IDE (optional)
+.vscode/
+.idea/
+
+# Vim (optional)
+*.swp
+*.swo
+
+# Local secrets (optional)
+.env
+.env.*
