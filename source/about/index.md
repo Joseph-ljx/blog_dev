@@ -1,13 +1,13 @@
 ---
 title: Resume
-date: 2025-01-01
+date: 2026-01-01
 type: "about"
 layout: "about"
 ---
 
-# Ray Zeng
+# Jianxiang(Joseph) Liao
 
-**AI Data Scientist** | **Machine Learning Engineer** | 📍 Anywhere on Earth, Mars in future maybe | 📧 ddl1208@icloud.com | 🔗 [LinkedIn](https://www.linkedin.com/in/pengrui-ray-zeng1208/) | 🐙 [GitHub](https://github.com/ray1208xxxx)
+**Network Engineer** | **Automation Engineer** | **SDE** | **DevOps** | 📍 Dedicated passion and energy will tackle situations and bloom life | 📧 josephliao2023@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/joseph-liao/) | 🐙 [GitHub](https://github.com/Joseph-ljx)
 
 ---
 
@@ -18,26 +18,39 @@ layout: "about"
   <div class="job-meta">
     <span><i class="fa-solid fa-location-dot"></i> Pittsburgh, USA</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Sep 2023 – Dec 2024</span>
+    <span><i class="fa-regular fa-calendar"></i> Sep 2021 – Jun 2023</span>
   </div>
 </div>
 
 - **Degree:** Master of Information Systems Management (MISM) 
 - **GPA:** **3.8 / 4.0** 
-- **Relevant Courses:** Data Science & Big Data, Machine Learning in Production, Machine Learning with Large Datasets, Algorithms & Data Structures, Distributed Systems, A/B Testing. 
+- **Relevant Courses:** Search Engine, Algorithms & Data Structures, Distributed Systems, Foundation of Computer Systems, Natural Language Processing, Engineering Data Intensive Scalable Systems .
 
 <div class="job-header" style="margin-top: 30px;">
-  <h3>University of Queensland</h3>
+  <h3>Beijing University of Post and Telecommunication</h3>
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Brisbane, Australia</span>
+    <span><i class="fa-solid fa-location-dot"></i> Beijing, China</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Feb 2019 – Dec 2022</span>
+    <span><i class="fa-regular fa-calendar"></i> Sep 2017 – May 2021</span>
   </div>
 </div>
 
-- **Degree:** Bachelor of Computer Science & Data Science  
-- **GPA:** **3.88 / 4.0**  
-- **Relevant Courses:** Advanced Database Systems, Statistical Modeling, Web Information Systems. 
+- **Degree:** Bachelor of Engineering  
+- **GPA:** **3.85 / 4.0**  
+- **Relevant Courses:** Advanced Database Systems, Statistical Modeling, Web Information Systems, Internet Protocol, Data Mining.
+
+<div class="job-header" style="margin-top: 30px;">
+  <h3>Queen Mary University of London</h3>
+  <div class="job-meta">
+    <span><i class="fa-solid fa-location-dot"></i> Londdon, United Kingdom</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> Sep 2017 – May 2021</span>
+  </div>
+</div>
+
+- **Degree:** Dual Degree: Bachelor of E-Commerce and Law
+- **GPA:** **3.70 / 4.0**  
+- **Relevant Courses:** Engineering Mathmatics, E-Commerce Law, Security and Authentication, Information & Privacy Protection Law, Internet Law, E-Commerce and Economic Law.
 
 ---
 
@@ -45,102 +58,234 @@ layout: "about"
 
 | Category | Skills |
 | :--- | :--- |
-| **Machine Learning** | Scikit-learn, XGBoost/LightGBM, SVM, Deep Learning (PyTorch/TensorFlow), Transformers (BERT/LLMs), NLP.  |
-| **Data Engineering** | SQL (MySQL, Snowflake, Redshift), NoSQL (MongoDB), Spark, Airflow, AWS, Google Cloud Dataflow. |
-| **Visualization** | Power BI, Tableau, Matplotlib, Seaborn, Apache Superset.  |
-| **Tools & DevOps** | Docker, Jenkins, GitHub Actions, Kafka, Flask, Linux.  |
+| **Networking** | BGP, IGP, MPLS VPN, VLAN, OTN, SDH, Firewall, Traffic Analysis, OSI Layer 1/2/3 |
+| **Programming** | Python, Java, Golang |
+| **Backend & Frameworks** | Django, RESTful APIs, Gin (Golang), SSM Framework |
+| **Automation & DevOps** | Linux, Docker, Kubernetes (EKS), Netmiko, Nornir, TextFSM, Crontab, Celery |
+| **Databases** | PostgreSQL, MongoDB, Neo4j, AWS RDS |
+| **Infrastructure & Cloud** | AWS EC2, Load Balancers, Security Groups |
+| **Messaging & Data** | Kafka, Redis, Pyshark |
 
 ---
 
 ## <i class="fa-solid fa-briefcase"></i> Work Experience
 
 <div class="job-header">
-  <h3>Intel Corporation — AI Data Scientist</h3>
+  <h3>Network Engineer / Automation System Developer</h3>
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Chengdu, China</span>
+    <span><i class="fa-regular fa-building"></i> China Telecom</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> May 2025 – Present</span>
+    <span><i class="fa-solid fa-location-dot"></i> Los Angeles, USA</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> Aug 2023 – Present</span>
   </div>
 </div>
 
-* **AI/ML Empowerment:** Reengineered global capacity planning workflows using AI/ML orchestration models; validated strategies via **A/B testing**.  
-* **Forecasting System:** Built a multi-model forecasting framework (SARIMAX, Prophet, GBR) with GMM-based segmentation, boosting accuracy by **20%**.  
-* **Scalable Architecture:** Designed distributed ETL pipelines (Azure Data Factory, Databricks, Spark) for TB-scale data, driving supply chain digital transformation. 
+* **Network Operations:** Managed and operated Layer 1–3 infrastructure including OTN, SDH, Ethernet, and IP/MPLS VPN services across the AS36678 backbone network.
+* **Automation Engineering:** Developed Python-based automation scripts to configure devices, execute batch commands, perform health checks, and troubleshoot network incidents.
+* **Network Monitoring Platform:** Designed and implemented a centralized automation and monitoring system managing **10 data center cages and 100+ network devices** across the United States.  
+  * Real-time topology visualization  
+  * Device & circuit health alarms  
+  * Batch configuration execution  
+  * RPKI-based prefix validation
+* **Operations Platform:** Built a collaboration and asset management platform using **Django Admin + PostgreSQL** with RESTful APIs (MVC architecture) supporting device and circuit inventory, rack & cage topology mapping, operational logging, and UPS SNMP trap monitoring.
+* **Automation Framework:** Implemented scheduled automation pipelines (**Linux crontab + Python**) to parse vendor circuit hotcut emails, generate structured reports, and trigger automated alerts for NOC teams.
 
 <div class="job-header" style="margin-top: 30px;">
-  <h3>MSA Safety — Data Analyst Internship</h3>
+  <h3>Backend & Data Engineer </h3>
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Pittsburgh, USA</span>
+    <span><i class="fa-regular fa-building"></i> Harvard Management Company</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> May 2024 – Dec 2024</span>
+    <span><i class="fa-solid fa-location-dot"></i> New York, USA</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> Feb 2022 – May 2023</span>
   </div>
 </div>
 
-* **Procurement Analytics:** Analyzed **10M+ rows** of global data using Python/SQL; applied K-Means for supplier segmentation, achieving **10% cost reduction**.  
-* **Model Optimization:** Fine-tuned Random Forest models to improve supplier selection accuracy. 
-* **BI Optimization:** Optimized Power BI DAX queries and ETL pipelines, significantly accelerating report refresh speeds.  
+* **Financial Data Engineering:** Extracted and analyzed data from **1,200+ hedge fund reports** sourced from Kaggle, SEC.gov, and IRS datasets.
+* **ETL & Data Modeling:** Designed ETL pipelines and structured datasets using **MongoDB (document model)** and **Neo4j (graph database)**.
+* **Backend APIs:** Developed RESTful APIs enabling fund retrieval, portfolio analysis, and investment recommendation services.
 
 <div class="job-header" style="margin-top: 30px;">
-  <h3>LVMH — Data Scientist Internship</h3>
+  <h3>Full Stack SDE Intern </h3>
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Shanghai, China</span>
+    <span><i class="fa-regular fa-building"></i> Wisecar</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Feb 2023 – Jul 2023</span>
+    <span><i class="fa-solid fa-location-dot"></i> Melbourne, Australia</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> May 2022 – Aug 2022</span>
   </div>
 </div>
 
-* **User Segmentation:** Processed **60M+** user records using ML models (LR, GBDT, K-Means) to optimize ad targeting, increasing engagement by **15%**.  
-* **Inventory Forecasting:** Deployed SARIMAX models for Dior's inventory management across **395 stores**, improving accuracy by **10.5%**.  
-* **Performance Marketing:** Analyzed 9 major campaigns, increasing operational efficiency by **34%** and reducing costs by **15%**. 
+* Developed **20+ UI components and 50+ APIs** for a mobile application using **React Native**.
+* Implemented **Keycloak OAuth2 authentication** and **JWT token validation** for secure user access control.
+* Designed backend microservices using **Golang (Gin)** with RESTful APIs enabling CRUD operations for claims and reports stored in **PostgreSQL**.
+* Deployed the application on **AWS EC2**, integrating scalable cloud infrastructure.
 
 <div class="job-header" style="margin-top: 30px;">
-  <h3>Signify — Data Expert Internship</h3>
+  <h3>Backend SDE Intern </h3>
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Chengdu, China</span>
+    <span><i class="fa-regular fa-building"></i> China Telecom</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Dec 2021 – Sep 2022</span>
+    <span><i class="fa-solid fa-location-dot"></i> Guangzhou, China</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> Jun 2020 – Sep 2020</span>
   </div>
 </div>
 
-* **Automation:** Developed **30+ Python scripts** to automate supply chain processes, saving **60+ hours/month**.  
-* **Analytics:** Built material consumption models to detect anomalies, improving customer satisfaction by **5%**.  
+* Implemented backend **Java services** using the **SSM framework** to manage operational data across **50+ servers** in the Internet of Vehicles platform.
+
+---
+
+## <i class="fa-solid fa-diagram-project"></i> Key System Architecture  
+### Network Automation & Monitoring Platform (AS36678)
+
+<div class="job-meta">
+<span><i class="fa-solid fa-location-dot"></i> China Telecom Americas</span>
+<span class="separator">|</span>
+<span><i class="fa-solid fa-network-wired"></i> Network Automation / NOC Platform</span>
+</div>
+
+Designed and implemented an **automation and monitoring platform** to centrally manage network infrastructure across **10 data center cages and 100+ backbone devices** in the AS36678 network.  
+The system provides **topology visualization, configuration automation, alarm monitoring, and operational workflow management** for NOC teams.
+
+---
+
+### System Architecture
+
+```
+                      +-------------------------+
+                      |  Vendor Hotcut Emails   |
+                      +-----------+-------------+
+                                  |
+                                  v
+                      +-------------------------+
+                      |  Email Parsing Engine   |
+                      |  (Python Automation)    |
+                      +-----------+-------------+
+                                  |
+                                  v
+                      +-------------------------+
+                      |  Automation Framework   |
+                      |  (Crontab + Python)     |
+                      +-----------+-------------+
+                                  |
+                                  v
++-----------------+     +------------------------+    +----------------+
+| Network Devices | ->  | Data Processing Layer  | -> |  PostgreSQL DB |
+| (Routers/Switch)|     | Netmiko / Nornir / API |    |  Asset Storage |
++-----------------+     +------------------------+    +----------------+
+                                  |
+                                  v
+                      +------------------------+
+                      | Django Backend System  |
+                      | RESTful API Services   |
+                      +-----------+------------+
+                                  |
+                                  v
+                  +-------------------------------+
+                  | Web Admin / Monitoring Portal |
+                  | Topology / Logs / Alarms      |
+                  +-------------------------------+
+```
+
+---
+
+### Core Features
+
+#### Network Topology Monitoring
+
+* Real-time visualization of **data center cages, racks, and device connections**
+* Monitoring **100+ routers, switches, and circuits**
+* Health status detection for interfaces, circuits, and routing sessions
+
+#### Configuration Automation
+
+* Batch command execution on network devices using **Netmiko / Nornir**
+* Automated configuration validation and operational checks
+* RPKI prefix validation to detect routing anomalies
+
+#### Alarm & Event System
+
+* Device health monitoring via **SNMP traps**
+* Circuit status monitoring and alerting
+* Automated email notifications for NOC engineers
+
+#### Asset & Operations Management
+
+* Centralized **device inventory and circuit records**
+* Rack and cage topology mapping
+* Operational logging and change tracking
+* NOC workflow management (tasks, milestones, project tracking)
+
+---
+
+### Automation Pipeline
+
+                    Vendor Notification
+                            |
+                            v
+                  Email Parser (Python)
+                            |
+                            v
+                  Event Classification
+                            |
+                            v
+                    Database Storage
+                            |
+                            v
+                      Alert System
+                            |
+                            v
+            NOC Dashboard / Email Notification
+
+
+---
+
+### Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| **Automation** | Python, Netmiko, Nornir, TextFSM |
+| **Backend** | Django, RESTful API |
+| **Database** | PostgreSQL |
+| **Infrastructure** | Linux Servers |
+| **Scheduling** | Crontab |
+| **Network Monitoring** | SNMP, Pyshark |
+| **Messaging & Alerts** | Email Notifications |
+
+---
+
+### Impact
+
+* Centralized monitoring for **100+ backbone network devices**
+* Reduced manual NOC operations via **automation pipelines**
+* Improved network visibility with **topology visualization**
+* Enabled faster troubleshooting and incident response
 
 ---
 
 ## <i class="fa-solid fa-code"></i> Selected Projects
 
 <div class="job-header">
-  <h3>Emotion Classification with LLMs (CMU Capstone)</h3>
+  <h4>Service-Oriented Backend System for Library</h4>
   <div class="job-meta">
-    <span><i class="fa-solid fa-tag"></i> NLP, LLM, MLOps</span>
+    <span><i class="fa-solid fa-tag"></i> Microservices, Cloud Architecture</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Aug 2024 – Dec 2024</span>
+    <span><i class="fa-solid fa-location-dot"></i> Carnegie Mellon University</span>
   </div>
 </div>
 
-* **Model Tuning:** Optimized **DistilBERT** with advanced training strategies for multi-class text classification.  
-* **Deployment:** Deployed a lightweight inference API using **Flask** and RESTful services for real-time applications.  
+* Developed RESTful microservices following **BFF (Backend for Frontend)** and **Single Responsibility Principle**.
+* Deployed containerized services using **Docker**, **Kubernetes (EKS)**, and **AWS EC2**.
+* Implemented **circuit breaker mechanisms** to ensure system resilience.
+* Built **Kafka (publish-subscribe)** pipelines for asynchronous workflows such as email verification.
+* Enabled high scalability using **load balancers, security groups, health checks, and pod replication**.
 
-<div class="job-header" style="margin-top: 30px;">
-  <h3>Recognition & Fault Detection System (CMU & GE)</h3>
-  <div class="job-meta">
-    <span><i class="fa-solid fa-tag"></i> Computer Vision, Edge AI</span>
-    <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Jan 2024 – May 2024</span>
-  </div>
-</div>
+---
 
-* **Real-Time Inference:** Utilized **YOLOv5** and **TensorRT** to achieve **45ms/frame** inference speed.  
-* **Integration:** Configured Kafka-based streaming for continuous fault detection, reducing downtime by **10%**.  
+## <i class="fa-solid fa-award"></i> Certifications & Awards
 
-<div class="job-header" style="margin-top: 30px;">
-  <h3>Movie Recommendations Platform (CMU & Netflix)</h3>
-  <div class="job-meta">
-    <span><i class="fa-solid fa-tag"></i> Recommender Systems, Big Data</span>
-    <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Sep 2023 – Dec 2023</span>
-  </div>
-</div>
-
-* **Scalability:** Engineered a MySQL database for **30M+ records**, utilizing partitioning and indexing for high performance.  
-* **Real-Time API:** Implemented a recommendation API (Kafka + Flask) handling **50M+** user interactions.  
+* **CCNA & CCNP — Cisco Certified Network Associate / Professional**
+* **Patent:** System and Apparatus for Natural Disaster Public Sentiment Analysis (CN No. 4648515, 2022)
+* **Nomination:** The 38th CCF China Database Academic Conference (NDBC 2021)

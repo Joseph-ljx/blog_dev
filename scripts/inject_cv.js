@@ -1822,15 +1822,15 @@ hexo.extend.injector.register('body_end', `
           if (!sideCard.querySelector('.cv-sidebar-bio')) {
               var bioHTML = \`
                 <div class="cv-sidebar-bio">
-                    <p>Let everything unfold and go with the flow.</p>
+                    <p>With dedicated passion and energy.</p>
                     
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
                         <div class="cv-sidebar-tag"><i class="fa-brands fa-python"></i> Python</div>
                         <div class="cv-sidebar-tag"><i class="fa-brands fa-java"></i> Java</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-server skill-icon"></i> Spark</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-fire"></i> PyTorch</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-server skill-icon"></i> Netmiko</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-fire"></i> Django</div>
                         <div class="cv-sidebar-tag"><i class="fa-brands fa-docker"></i> Docker</div>
                         <div class="cv-sidebar-tag"><i class="fa-brands fa-git-alt"></i> Git</div>
                     </div>
@@ -1838,29 +1838,43 @@ hexo.extend.injector.register('body_end', `
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> Machine Learning</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-gears"></i> MLOps</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Deep Learning</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-comments"></i> NLP</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> LLMs</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> Network Engineering</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-gears"></i> DevOps</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-message-bot"></i> Automation</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-block-brick-fire"></i> Network Security</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Data Center Operation</div>
+                        
                     </div>
 
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-database"></i> MySQL</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-file-lines"></i></i> NoSQL</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-database"></i> PostgreSQL</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-file-lines"></i></i> MySQL</div>
                         <div class="cv-sidebar-tag"><i class="fa-brands fa-aws"></i> AWS</div>
-                        <div class="cv-sidebar-tag"><i class="fa-brands fa-microsoft"></i> Azure</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-cloud"></i> Snowflake</div>
+                        <div class="cv-sidebar-tag"><i class="fa-brands fa-microsoft"></i> Ubuntu</div>
+                        <div class="cv-sidebar-tag"><i class="fa-thin fa-circle-nodes"></i> Wireshark</div>
+                        <div class="cv-sidebar-tag"><i class="fa-regular fa-command"></i> Linux</div>
+                        <div class="cv-sidebar-tag"><i class="fa-regular fa-registered"></i> Redis</div>
+                        <div class="cv-sidebar-tag"><i class="fa-light fa-screwdriver-wrench"></i> Nornir</div>
+                        <div class="cv-sidebar-tag"><i class="fa-light fa-timer"></i> Crontab</div>
                     </div>
 
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-chart-simple"></i> Tableau</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-chart-pie"></i> PowerBI</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-chart-area"></i> Qlik</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-router"></i> Router</div>
+                        <div class="cv-sidebar-tag"><i class="fa-regular fa-light-switch"></i> Switch</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-server"></i> Server</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-cloud"></i> Cloud</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-abacus"></i> Cage Management</div>
+                    </div>
+
+                    <div class="cv-skill-divider"></div>
+
+                    <div class="cv-sidebar-tags">
+                        <div class="cv-sidebar-tag"><i class="fa-regular fa-certificate"></i> CCNA</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-certificate"></i> CCNP</div>
                     </div>
 
                     <div class="contact-card">
@@ -1873,7 +1887,7 @@ hexo.extend.injector.register('body_end', `
                               </svg>
                               zsh — Contact
                             </p>
-                            <button class="copy_toggle" tabindex="-1" type="button" onclick="navigator.clipboard.writeText('ddl1208@icloud.com'); alert('Email copied!');">
+                            <button class="copy_toggle" tabindex="-1" type="button" onclick="navigator.clipboard.writeText('josephliao2023@gmail.com'); alert('Email copied!');">
                               <svg width="16px" height="16px" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none">
                                 <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
                                 <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
@@ -1884,7 +1898,7 @@ hexo.extend.injector.register('body_end', `
                             <pre class="contact-pre">
                               <code>~ </code>
                               <code>Email </code>
-                              <code class="contact-cmd" data-cmd="ddl1208@icloud.com"></code>
+                              <code class="contact-cmd" data-cmd="josephliao2023@gmail.com"></code>
                             </pre>
                           </div>
                         </div>
@@ -1910,46 +1924,46 @@ hexo.extend.injector.register('body_end', `
                   <div id="scene-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin: 0;"></div>
                   
                   <div class="earth-controls">
-                      <div class="tooltip-container" onclick="window.focusLocation(30.57, 104.06, 'chengdu')">
-                          <span class="tooltip">I was born here, this is my hometown</span>
-                          <span class="text">🐼 Chengdu</span>
-                          <span>🌶️ 🍲 🇨🇳</span>
-                      </div>
-
-                      <div class="tooltip-container" onclick="window.focusLocation(-34.93, 138.60, 'adelaide')">
-                          <span class="tooltip">Came here alone at 15 for high school</span>
-                          <span class="text">🍷 Adelaide</span>
-                          <span>🦘 🌊 🇦🇺</span>
-                      </div>
-
-                      <div class="tooltip-container" onclick="window.focusLocation(-27.47, 153.02, 'brisbane')">
-                          <span class="tooltip">Where my journey in CS and DS began</span>
-                          <span class="text">🏖️ Brisbane</span>
-                          <span>🎣 ☀️ 🇦🇺</span>
+                      <div class="tooltip-container" onclick="window.focusLocation(34.05, -118.24, 'la')">
+                          <span class="tooltip">Still continuing my work and life here...</span>
+                          <span class="text"> Los Angeles</span>
+                          <span>🇺🇸</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(40.44, -79.99, 'pittsburgh')">
-                          <span class="tooltip">Earned my degree at a world-leading DS institution</span>
-                          <span class="text">💻 Pittsburgh</span>
-                          <span>🏙️ 🌉 🇺🇸</span>
+                          <span class="tooltip">My graduate studies at CMU, challenging but rewarding, earned me a degree at the world-leading IS institution</span>
+                          <span class="text"> Pittsburgh</span>
+                          <span> 🇺🇸</span>
                       </div>
 
-                      <div class="tooltip-container" onclick="window.focusLocation(34.05, -118.24, 'la')">
-                          <span class="tooltip">I lived for six months after graduation, I loved Here</span>
-                          <span class="text">🌴 Los Angeles</span>
-                          <span>🎬 🌅 🇺🇸</span>
+                      <div class="tooltip-container" onclick="window.focusLocation(40.65, -73.78, 'new york')">
+                          <span class="tooltip">The short but fulfilling internship & trip allowed me to appreciate the richness and diversity of the world.</span>
+                          <span class="text"> New York</span>
+                          <span> US</span>
                       </div>
 
-                      <div class="tooltip-container" onclick="window.focusLocation(30.04, 31.23, 'cairo')">
-                          <span class="tooltip">My first step onto Africa, land of Pharaohs</span>
-                          <span class="text">🏺 Cairo</span>
-                          <span>🐫 🏜️ 🇪🇬</span>
+                      <div class="tooltip-container" onclick="window.focusLocation(-37.80, 144.96, 'melbourne')">
+                          <span class="tooltip">Internships, studies, experiences. Even a corner of the world can be vibrant and colorful.</span>
+                          <span class="text"> Melbourne</span>
+                          <span> 🇦🇺</span>
                       </div>
 
-                      <div class="tooltip-container" onclick="window.focusLocation(-1.29, 36.82, 'nairobi')">
-                          <span class="tooltip">The Heart of Safari and Wild Nature</span>
-                          <span class="text">🦒 Nairobi</span>
-                          <span>🐘 🦓 🇰🇪</span>
+                      <div class="tooltip-container" onclick="window.focusLocation(-34.93, 138.60, 'adelaide')">
+                          <span class="tooltip">My first experience living abroad: the beginning of my study abroad</span>
+                          <span class="text"> Adelaide</span>
+                          <span> 🇦🇺</span>
+                      </div>
+
+                      <div class="tooltip-container" onclick="window.focusLocation(39.90, 116.40, 'beijing')">
+                          <span class="tooltip">Unforgettable, challenging yet fulfilling university life, wonderful memories.</span>
+                          <span class="text"> Beijing</span>
+                          <span> 🇨🇳</span>
+                      </div>
+
+                      <div class="tooltip-container" onclick="window.focusLocation(23.12, 113.26, 'guangzhou')">
+                          <span class="tooltip">My sweet and familiar hometown</span>
+                          <span class="text"> Guangzhou</span>
+                          <span> 🇨🇳</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.resetView()">
@@ -1968,19 +1982,29 @@ hexo.extend.injector.register('body_end', `
                         <img src="/images/CMU.png" alt="CMU">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">Carnegie Mellon University</span><span class="cv-time">Sep 2023 - Dec 2024</span></div>
+                      <div class="cv-card-header"><span class="cv-role">Carnegie Mellon University</span><span class="cv-time">Sep 2021 - Jun 2023</span></div>
                       <div class="cv-card-subheader"><span class="cv-org">Master of Information Systems</span><span class="cv-gpa">GPA: 3.8 / 4.0</span></div>
-                      <div class="cv-desc">Focus: Data Science, Machine Learning in Production.</div>
+                      <div class="cv-desc">Focus: Search Engine, Software Engineering, Machine Learning in Production.</div>
                     </div>
                   </a>
                   <a href="/2019/02/11/BCompSci-Data-Science-University-of-Queensland/" class="cv-card">
                     <div class="cv-logo-box">
-                        <img src="/images/uq2.png" alt="UQ">
+                        <img src="/images/BUPT.png" alt="BUPT">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">University of Queensland</span><span class="cv-time">Feb 2019 - Dec 2022</span></div>
-                      <div class="cv-card-subheader"><span class="cv-org">Bachelor of Computer Science & Data Science</span><span class="cv-gpa">GPA: 3.88 / 4.0</span></div>
+                      <div class="cv-card-header"><span class="cv-role">Beijing University of Post and Telecommunication</span><span class="cv-time">Sep 2017 - May 2021</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Bachelor of Engineering</span><span class="cv-gpa">GPA: 3.85 / 4.0</span></div>
                       <div class="cv-desc">Focus: Algorithms, Database Managements, Statistics.</div>
+                    </div>
+                  </a>
+                  <a href="/2019/02/11/BCompSci-Data-Science-University-of-Queensland/" class="cv-card">
+                    <div class="cv-logo-box">
+                        <img src="/images/QMUL.png" alt="QMUL">
+                    </div>
+                    <div class="cv-content-box">
+                      <div class="cv-card-header"><span class="cv-role">Queen Mary University of London</span><span class="cv-time">Sep 2017 - May 2021</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Dual Degree: Bachelor of E-Commerce and Law</span><span class="cv-gpa">GPA: 3.70 / 4.0</span></div>
+                      <div class="cv-desc">Focus: E-Commerce Engineering, E-Commerce Law, Statistics.</div>
                     </div>
                   </a>
                 </div>
@@ -2341,13 +2365,13 @@ hexo.extend.injector.register('body_end', `
 
     // --- 初始化所有坐标 ---
     function initMarkers() {
-        addMarker(30.57, 104.06, 'chengdu');
-        addMarker(-34.93, 138.60, 'adelaide');
-        addMarker(-27.47, 153.02, 'brisbane');   
-        addMarker(40.44, -79.99, 'pittsburgh');  
         addMarker(34.05, -118.24, 'la');
-        addMarker(30.04, 31.23, 'cairo');   
-        addMarker(-1.29, 36.82, 'nairobi');
+        addMarker(40.44, -79.99, 'pittsburgh');
+        addMarker(40.65, -73.78, 'new york');
+        addMarker(-37.80, 144.96, 'melbourne');
+        addMarker(-34.93, 138.60, 'adelaide');
+        addMarker(39.90, 116.40, 'beijing');   
+        addMarker(23.12, 113.26, 'guangzhou');
     }
 
     // --- 暴露给 Window 的点击事件 ---

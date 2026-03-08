@@ -1,8 +1,8 @@
 info:
-  title: Ray Zeng
-  author: Ray Zeng
-  subtitle: DS | AIE | MLE
-  url: https://ray1208xxxx.github.io
+  title: Joseph Liao
+  author: Joseph Liao
+  subtitle: Network Engineer | SDE
+  url: https://github.com/Joseph-ljx
 
 defaults:
   favicon: /images/logo-mars.png
@@ -13,12 +13,12 @@ home_banner:
   enable: true
   style: fixed   
   image:
-    light: /images/IMG_3717.jpg
-    dark: /images/IMG_3717.jpg
-  title: Ray Zeng
+    light: /images/background.png
+    dark: /images/background.png
+  title: Joseph Liao
   subtitle:
     text:
-      - "Current Data Scientist @ Intel"
+      - "Current Network & Automation Engieer @ CTA"
       - "Open to collaborations!"
   text_color:
     light: "#ffffff"
@@ -29,9 +29,9 @@ home_banner:
   social_links:
     enable: true
     links:
-      github: https://github.com/ray1208xxxx
-      fa-brands fa-linkedin: https://www.linkedin.com/in/pengrui-ray-zeng1208/
-      fa-brands fa-kaggle: https://www.kaggle.com/你的kaggle
+      github: https://github.com/Joseph-ljx
+      fa-brands fa-linkedin: https://www.linkedin.com/in/joseph-liao/
+      fa-brands fa-kaggle: https://www.kaggle.com/ljx02263
 
 navbar:
   auto_generate: false
@@ -43,22 +43,21 @@ navbar:
     TRAVEL:
       icon: fa-solid fa-bookmark 
       path: /bookmarks/
-    ABOUT:
+    RESUME:
       icon: fa-regular fa-user
-      submenus:
-        RESUME: /about/
-        GITHUB: https://github.com/ray1208xxxx
+      path: /about/
     LINK:
       icon: fa-regular fa-link
       submenus:
-        LINKEDIN: https://www.linkedin.com/in/pengrui-ray-zeng1208/
+        LINKEDIN: https://www.linkedin.com/in/joseph-liao/
+        GITHUB: https://github.com/Joseph-ljx
 
 articles:
   word_count: 
     enable: false
     min2read: false
   author_label: 
-    list: ["DS"]
+    list: ["Network Engineer"]
 
 search:
   enable: true
