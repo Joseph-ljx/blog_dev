@@ -2021,6 +2021,16 @@ hexo.extend.injector.register(
               <div class="cv-exp-section">
                 <div class="cv-section-title"><i class="fa-solid fa-briefcase"></i> Work Experience</div>
                 <div class="cv-grid">
+                  <a href="/2023/08/20/Network-Automation-Engineer-China-Telecom/" class="cv-card">
+                     <div class="cv-logo-box">
+                        <img src="/images/cta.png" alt="cta">
+                    </div>
+                     <div class="cv-content-box">
+                       <div class="cv-card-header"><span class="cv-role">China Telecom</span><span class="cv-time">Aug 2023 - Now</span></div>
+                       <div class="cv-card-subheader"><span class="cv-org">Network & Automation Engineer</span></div>
+                       <div class="cv-desc">Building AI and automation-driven backbone network operations platforms and NOC toolings, to centralize monitoring, accelerate all layers network troubleshooting, and scale infrastructure management.</div>
+                     </div>
+                  </a>
                   <a href="/2025/05/26/AI-Data-Scientist-Intel/" class="cv-card">
                     <div class="cv-logo-box">
                         <img src="/images/intel.png" alt="intel">
@@ -2030,16 +2040,6 @@ hexo.extend.injector.register(
                       <div class="cv-card-subheader"><span class="cv-org">AI Data Scientist</span></div>
                       <div class="cv-desc">Driving AI-powered capacity planning and global supply-chain transformation through scalable forecasting systems and executive decision platforms.</div>
                     </div>
-                  </a>
-                  <a href="/2024/05/20/Strategic-Sourcing-Data-Analyst-MSA-Safety/" class="cv-card">
-                     <div class="cv-logo-box">
-                        <img src="/images/msa.jpg" alt="msa">
-                    </div>
-                     <div class="cv-content-box">
-                       <div class="cv-card-header"><span class="cv-role">MSA Safety</span><span class="cv-time">May 2024 - Dec 2024</span></div>
-                       <div class="cv-card-subheader"><span class="cv-org">Data Analyst Internship</span></div>
-                       <div class="cv-desc">Optimizing global procurement and supplier strategy through data analytics, machine learning, and executive-level business intelligence.</div>
-                     </div>
                   </a>
                   <a href="/2023/02/18/Data-Scientist-Intern-LVMH/" class="cv-card">
                     <div class="cv-logo-box">

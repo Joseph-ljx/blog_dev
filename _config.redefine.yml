@@ -71,10 +71,10 @@ plugins:
         type: fixed
         autoplay: true
         audios:
-            - name: Sofa bed 
-              artist: PO8
-              url: /music/PO8 - Sofa bed.mp3
-              cover: /images/PO8.png
+            - name: Passionfruit
+              artist: Drake
+              url: /music/BGM_2.mp3
+              cover: /images/BGM.png
           
 inject:
   enable: false
