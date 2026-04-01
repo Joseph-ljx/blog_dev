@@ -166,22 +166,22 @@ The system provides **topology visualization, configuration automation, alarm mo
 
 <div style="display:flex; justify-content:center;">
 <pre>
-                    Vendor Notification
-                            |
-                            v
-                  Email Parser (Python)
-                            |
-                            v
-                  Event Classification
-                            |
-                            v
-                    Database Storage
-                            |
-                            v
-                      Alert System
-                            |
-                            v
-            NOC Dashboard / Email Notification
+                Vendor Notification
+                        |
+                        v
+              Email Parser (Python)
+                        |
+                        v
+              Event Classification
+                        |
+                        v
+                Database Storage
+                        |
+                        v
+                  Alert System
+                        |
+                        v
+        NOC Dashboard / Email Notification
 </pre>
 </div>
 

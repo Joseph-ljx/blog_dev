@@ -1875,7 +1875,8 @@ hexo.extend.injector.register(
                         <div class="cv-sidebar-tag"><i class="fa-regular fa-light-switch"></i> Switch</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-server"></i> Server</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-cloud"></i> Cloud</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-abacus"></i> Cage Management</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-block-brick-fire"></i> SDN</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-abacus"></i> OTN</div>
                     </div>
 
                     <div class="cv-skill-divider"></div>
@@ -1962,6 +1963,12 @@ hexo.extend.injector.register(
                           <span>🇦🇺</span>
                       </div>
 
+                      <div class="tooltip-container" onclick="window.focusLocation(51.52, -0.04, 'london')">
+                          <span class="tooltip">Due to the weather, a place best for studying and working, I have to admit.</span>
+                          <span class="text">UK London</span>
+                          <span>🇨🇳</span>
+                      </div>
+
                       <div class="tooltip-container" onclick="window.focusLocation(39.90, 116.40, 'beijing')">
                           <span class="tooltip">Unforgettable, challenging yet fulfilling university life, <br>wonderful memories.</span>
                           <span class="text">🇨🇳 Beijing</span>
@@ -1985,7 +1992,7 @@ hexo.extend.injector.register(
               <div class="cv-edu-section">
                 <div class="cv-section-title"><i class="fa-solid fa-graduation-cap"></i> Education</div>
                 <div class="cv-grid">
-                  <a href="/2023/09/28/MISM-Carnegie-Mellon-University/" class="cv-card">
+                  <a href="/2023/06/28/CMU/" class="cv-card">
                     <div class="cv-logo-box">
                         <img src="/images/CMU.png" alt="CMU">
                     </div>
@@ -1995,7 +2002,7 @@ hexo.extend.injector.register(
                       <div class="cv-desc">Focus: Search Engine, Software Engineering, Machine Learning in Production.</div>
                     </div>
                   </a>
-                  <a href="/2017/09/01/BCompSci-Data-Science-University-of-Queensland/" class="cv-card">
+                  <a href="/2017/09/01/BUPT/" class="cv-card">
                     <div class="cv-logo-box">
                         <img src="/images/BUPT.png" alt="BUPT">
                     </div>
@@ -2005,7 +2012,7 @@ hexo.extend.injector.register(
                       <div class="cv-desc">Focus: Algorithms, Database Managements, Statistics.</div>
                     </div>
                   </a>
-                  <a href="/2017/09/01/BCompSci-Data-Science-University-of-Queensland/" class="cv-card">
+                  <a href="/2017/09/01/QMUL/" class="cv-card">
                     <div class="cv-logo-box">
                         <img src="/images/QMUL.png" alt="QMUL">
                     </div>
@@ -2389,6 +2396,7 @@ hexo.extend.injector.register(
         addMarker(40.65, -73.78, 'new york');
         addMarker(-37.80, 144.96, 'melbourne');
         addMarker(-34.93, 138.60, 'adelaide');
+        addMarker(51.52, -0.04, 'london');
         addMarker(39.90, 116.40, 'beijing');   
         addMarker(23.12, 113.26, 'guangzhou');
     }

@@ -40,9 +40,9 @@ navbar:
     EXPERIENCE:
       path: /archives/
       icon: fa-regular fa-folder-open
-    TRAVEL:
-      icon: fa-solid fa-bookmark 
-      path: /bookmarks/
+    # TRAVEL:
+    #   icon: fa-solid fa-bookmark 
+    #   path: /bookmarks/
     RESUME:
       icon: fa-regular fa-user
       path: /about/

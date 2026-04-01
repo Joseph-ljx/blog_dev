@@ -1,5 +1,5 @@
 ---
-title: 🎓 Bachelor of Engineering
+title: 🎓 Bachelor of Engineering @ BUPT
 date: 2017-09-01
 cover: /images/bupt-linkedin.png
 categories:
@@ -14,17 +14,19 @@ tags:
   <div class="job-meta">
     <span><i class="fa-solid fa-location-dot"></i> Beijing, China</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Sep 2017 – Jun 2021</span>
+    <span><i class="fa-regular fa-calendar"></i> Oct 2017 – Jul 2021</span>
   </div>
 </div>
+
+### Beijing University of Post and Telecommunication
 
 ### 🎓 Academic Performance
 * **GPA:** **3.85 / 4.0**
 * **Major:** Engineering
 
 ### 📚 Core Coursework
-* **Data Science Core:** Web Information Systems, Data Science, Statistical Modeling.
-* **Computer Science:** Advanced Database Systems, Computer Systems, Internet Protocols.
+* **Computer Science:** Advanced Network Programming, Advanced Database Systems, Computer Systems, Internet Protocols, Information Systems
+* **Data Science Core:** Intro to LLM, Data Science, Data Mining, Statistical Modeling.
 
 <div class="wrapper-404">
   <div class="flash-overlay"></div>

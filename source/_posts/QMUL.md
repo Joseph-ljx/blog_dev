@@ -1,31 +1,32 @@
 ---
-title: 🎓 Master of IS
-date: 2023-09-28
-cover: /images/cmu-linkedin.jpeg
+title: 🎓 Bachelor of E-Commerce & Law @ QMUL
+date: 2017-09-01
+cover: /images/qmul-linkedin.jpg
 categories:
   - Education
 tags:
-  - Data Science
-  - Distributed Systems
-  - Machine Learning
+  - Economic
+  - Law
+  - Social Science
 ---
 
 <div class="job-header">
   <div class="job-meta">
-    <span><i class="fa-solid fa-location-dot"></i> Pittsburgh, United States</span>
+    <span><i class="fa-solid fa-location-dot"></i> London, UK</span>
     <span class="separator">|</span>
-    <span><i class="fa-regular fa-calendar"></i> Sep 2021 – Jun 2023</span>
+    <span><i class="fa-regular fa-calendar"></i> Sep 2017 – Jun 2021</span>
   </div>
 </div>
 
+### Queen Mary University of London
+
 ### 🎓 Academic Performance
-* **GPA:** **3.8 / 4.0**
-* **Focus:** Distributed Systems, Data Science & Big Data, Search Engine.
+* **GPA:** **3.70 / 4.0**
+* **Major:** E-Commerce & Law (Second Degree)
 
 ### 📚 Core Coursework
-* **AI & Machine Learning:** Machine Learning with Large Datasets, Intro to AI, Machine Learning in Production.
-* **Systems & Engineering:** Distributed Systems, Algorithms & Data Structures, Database Management, Software Engineering.
-* **Business & Strategy:** Digital Transformation, Data Science & Big Data.
+* **E-Commerce:** Information Systems, Business Technology, Data Mining
+* **Law:** Information & Privacy Law, Internet Law, Economic Law, E-Commerce Law
 
 <div class="wrapper-404">
   <div class="flash-overlay"></div>
