@@ -13,8 +13,8 @@ home_banner:
   enable: true
   style: fixed   
   image:
-    light: /images/background_2.jpeg
-    dark: /images/background_2.jpeg
+    light: /images/background_3.jpeg
+    dark: /images/background_3.jpeg
   title: Joseph Liao
   subtitle:
     text:
@@ -69,7 +69,7 @@ plugins:
   aplayer:  
         enable: true
         type: fixed
-        autoplay: true
+        autoplay: false
         audios:
             - name: Passionfruit
               artist: Drake

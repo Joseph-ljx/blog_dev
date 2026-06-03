@@ -1718,32 +1718,6 @@ hexo.extend.injector.register(
   "body_end",
   `
   <script>
-    // === 🎵 全局点击播放功能 ===
-    function initGlobalClickToPlay() {
-        var clickToPlayHandler = function() {
-            var playBtn = document.querySelector('.aplayer-button.aplayer-play');
-            if (playBtn) {
-                console.log("🎵 检测到全屏点击：触发音乐播放");
-                playBtn.click();  
-            } else {
-                var meting = document.querySelector('meting-js');
-                if (meting && meting.aplayer && meting.aplayer.audio.paused) {
-                    meting.aplayer.play();
-                }
-            }
-            document.removeEventListener('click', clickToPlayHandler);
-        };
-        document.addEventListener('click', clickToPlayHandler);
-    }
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initGlobalClickToPlay);
-    } else {
-        initGlobalClickToPlay();
-    }
-    document.addEventListener("pjax:complete", function() {
-        initGlobalClickToPlay();
-    });
-
     // 定义隐藏 Loader 的函数
     function hideLoader() {
         var loader = document.getElementById('loader-overlay');
@@ -2040,12 +2014,12 @@ hexo.extend.injector.register(
                   </a>
                   <a href="/2025/05/26/AI-Data-Scientist-Intel/" class="cv-card">
                     <div class="cv-logo-box">
-                        <img src="/images/intel.png" alt="intel">
+                        <img src="/images/hmc_logo.jpg" alt="hmc">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">Intel Corporation</span><span class="cv-time">May 2025 - Present</span></div>
-                      <div class="cv-card-subheader"><span class="cv-org">AI Data Scientist</span></div>
-                      <div class="cv-desc">Driving AI-powered capacity planning and global supply-chain transformation through scalable forecasting systems and executive decision platforms.</div>
+                      <div class="cv-card-header"><span class="cv-role">Harvard Management Company</span><span class="cv-time">Jan 2023 - May 2023</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Backend & Data Engineer </span></div>
+                      <div class="cv-desc">Driving investment research and portfolio intelligence through scalable ETL pipelines, predictive analytics, and graph-based financial data platforms built from 1,200+ hedge fund reports.</div>
                     </div>
                   </a>
                   <a href="/2023/02/18/Data-Scientist-Intern-LVMH/" class="cv-card">
