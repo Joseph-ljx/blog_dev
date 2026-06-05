@@ -1820,7 +1820,8 @@ hexo.extend.injector.register(
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> Network Engineering</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Network Eng</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> AI Coding</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-gears"></i> DevOps</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-message-bot"></i> Automation</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-block-brick-fire"></i> Network Security</div>
@@ -1909,55 +1910,55 @@ hexo.extend.injector.register(
                   <div class="earth-controls">
                       <div class="tooltip-container" onclick="window.focusLocation(34.05, -118.24, 'la')">
                           <span class="tooltip">Still continuing my work and life here...</span>
-                          <span class="text">🇺🇸 Los Angeles</span>
-                          <span>🇺🇸</span>
+                          <span class="text"> Los Angeles</span>
+                          <span>US</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(40.44, -79.99, 'pittsburgh')">
                           <span class="tooltip">My graduate studies at CMU, challenging but rewarding, <br>earned me a degree at the world-leading IS institution</span>
-                          <span class="text">🇺🇸 Pittsburgh</span>
-                          <span>🇺🇸</span>
+                          <span class="text">Pittsburgh</span>
+                          <span>US</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(40.65, -73.78, 'new york')">
                           <span class="tooltip">The short but fulfilling internship & trip allowed me to <br>appreciate the richness and diversity of the world.</span>
-                          <span class="text">🇺🇸 New York</span>
-                          <span>🇺🇸</span>
+                          <span class="text">New York</span>
+                          <span>US</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(-37.80, 144.96, 'melbourne')">
                           <span class="tooltip">Internships, studies, experiences. <br>Even a corner of the world can be vibrant and colorful.</span>
-                          <span class="text">🇦🇺 Melbourne</span>
-                          <span>🇦🇺</span>
+                          <span class="text">Melbourne</span>
+                          <span>AU</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(-34.93, 138.60, 'adelaide')">
                           <span class="tooltip">My first experience living abroad: <br>the beginning of my study abroad</span>
-                          <span class="text">🇦🇺 Adelaide</span>
-                          <span>🇦🇺</span>
+                          <span class="text">Adelaide</span>
+                          <span>AU</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(51.52, -0.04, 'london')">
                           <span class="tooltip">Due to the weather, a place best for studying and working, I have to admit.</span>
-                          <span class="text">UK London</span>
-                          <span>🇨🇳</span>
+                          <span class="text">London</span>
+                          <span>UK</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(39.90, 116.40, 'beijing')">
                           <span class="tooltip">Unforgettable, challenging yet fulfilling university life, <br>wonderful memories.</span>
-                          <span class="text">🇨🇳 Beijing</span>
-                          <span>🇨🇳</span>
+                          <span class="text">Beijing</span>
+                          <span>China</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.focusLocation(23.12, 113.26, 'guangzhou')">
                           <span class="tooltip">My sweet and familiar hometown</span>
-                          <span class="text">🇨🇳 Guangzhou</span>
-                          <span>🇨🇳</span>
+                          <span class="text">Guangzhou</span>
+                          <span>China</span>
                       </div>
 
                       <div class="tooltip-container" onclick="window.resetView()">
                           <span class="tooltip">Reset View</span>
-                          <span class="text">🌍 Orbit View</span>
+                          <span class="text">Orbit View</span>
                           <span><i class="fa-solid fa-satellite"></i></span>
                       </div>
                   </div>
@@ -2062,7 +2063,7 @@ hexo.extend.injector.register(
                         <span class="cv-org">AI Full-Stack Developer - NOC Operations Portal</span>
                       </div>
                       <div class="cv-desc">
-                        Designed and developed a production-grade Django web portal for NOC operations, centralizing circuit inventory, maintenance workflows, OTN alarm processing, vendor notifications, and real-time network monitoring into a unified internal platform.
+                        A production-grade Django web portal for NOC operations, centralizing circuit inventory, maintenance workflows, OTN alarm processing, vendor notifications, and real-time network monitoring into a unified internal platform.
                       </div>
                     </div>
                   </a>
@@ -2080,7 +2081,7 @@ hexo.extend.injector.register(
                         <span class="cv-org">Network Automation Engineer - DevAdmin Monitoring Platform</span>
                       </div>
                       <div class="cv-desc">
-                        Designed and built DevAdmin, a full-stack network automation and monitoring platform for the AS36678 backbone network, enabling centralized multi-vendor device management, real-time interface/BGP/IS-IS/RPKI monitoring, SNMPv3 traffic analytics, automated configuration backups, and intelligent Exchange-based NOC alerting.
+                        A full-stack network automation and monitoring platform for the AS36678 backbone network, enabling centralized multi-vendor device management, real-time interface/BGP/IS-IS/RPKI monitoring, SNMPv3 traffic analytics, automated configuration backups, and intelligent Exchange-based NOC alerting.
                       </div>
                     </div>
                   </a>
@@ -2096,14 +2097,14 @@ hexo.extend.injector.register(
                     </div>
                   </a>
 
-                  <a href="/2023/09/30/Movie-Recommendations-Platform" class="cv-card">
+                  <a href="/2023/06/05/Disaster-Monitor" class="cv-card">
                     <div class="cv-logo-box">
-                        <img src="/images/Netflix-Symbol.png" alt="netflix">
+                        <img src="/images/patent_logo.png" alt="disaster-monitor">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">CMU & Netflix</span><span class="cv-time">Sep 2023 - Dec 2023</span></div>
-                      <div class="cv-card-subheader"><span class="cv-org">Data Scientist - Movie Recommendations Platform Project</span></div>
-                      <div class="cv-desc">Designed a large-scale recommendation platform with real-time APIs, distributed data pipelines, and MLOps automation to support high-throughput personalization at scale.</div>
+                      <div class="cv-card-header"><span class="cv-role">CN Patent - BUPT Capstone</span><span class="cv-time">Sep 2020 - Apr 2021</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Machine Learning & Developer - Natural Disaster Monitoring</span></div>
+                      <div class="cv-desc">A full-stack data visualization platform aggregating multi-source social media data from Weibo and SINA News into structured earthquake events, with interactive maps, knowledge graphs, heat rivers, and real-time opinion feeds.</div>
                     </div>
                   </a>
                   

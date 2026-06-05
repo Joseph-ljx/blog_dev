@@ -1,7 +1,7 @@
 ---
 title: 💼 AI Data Engineer @ HMC
 date: 2023-01-20
-cover: /images/newsroom-Intel-ARL-Chip-4-scaled.jpg
+cover: /images/HMC_bg.png
 # password: hello
 # message: "🤖 Password Required: Email ddl1208@icloud.com for 🔑"
 # wrong_pass_message: Sorry, this password looks incorrect. Please try again.
@@ -101,23 +101,26 @@ tags:
 ---
 
 ### 🚀 Hedge Fund Intelligence Platform
-* **Data Acquisition and Knowledge Discovery** Designed automated data ingestion pipelines to extract information from SEC EDGAR, IRS filings, and Kaggle datasets, processing over 1,200 hedge funds and related regulatory documents including ADV, 13F, and K-1 filings.
+
+- **Data Acquisition and Knowledge Discovery** Designed automated data ingestion pipelines to extract information from SEC EDGAR, IRS filings, and Kaggle datasets, processing over 1,200 hedge funds and related regulatory documents including ADV, 13F, and K-1 filings.
 
 ### 🚀 AI / ML Empowerment
-* **Capacity Planning Reengineering:** Leveraged multi-source data and AI/ML intelligent orchestration models to reengineer hedge fund's planning workflows.
-* **Strategic Validation:** Validated strategy effectiveness through rigorous **A/B testing**, ensuring data-driven decision-making.
-* **Decision Support Systems:** Delivered interactive **Power BI dashboards** and internal web tools to provide strategic visibility for executive leadership.
+
+- **Capacity Planning Reengineering:** Leveraged multi-source data and AI/ML intelligent orchestration models to reengineer hedge fund's planning workflows.
+- **Strategic Validation:** Validated strategy effectiveness through rigorous **A/B testing**, ensuring data-driven decision-making.
+- **Decision Support Systems:** Delivered interactive **Power BI dashboards** and internal web tools to provide strategic visibility for executive leadership.
 
 ### 📈 ML-Driven Forecasting
-* **Multi-Model Framework:** Developed a robust forecasting framework integrating **SARIMAX, Prophet, and GBR** to enable long-term decision and demand planning.
-* **Advanced Segmentation:** Applied **Gaussian Mixture Models (GMM)** for regional segmentation combined with advanced feature engineering.
-* **Impact:** Successfully deployed models through an end-to-end **CI/CD ML pipeline** with auto-retraining capabilities, boosting forecast accuracy by **20%**.
+
+- **Multi-Model Framework:** Developed a robust forecasting framework integrating **SARIMAX, Prophet, and GBR** to enable long-term decision and demand planning.
+- **Advanced Segmentation:** Applied **Gaussian Mixture Models (GMM)** for regional segmentation combined with advanced feature engineering.
+- **Impact:** Successfully deployed models through an end-to-end **CI/CD ML pipeline** with auto-retraining capabilities, boosting forecast accuracy by **20%**.
 
 ### 🏗️ Scalable Data Architecture
-* **Distributed ETL Systems:** Designed and built scalable ETL pipelines using **Python, Azure Data Factory, and Databricks**.
-* **Big Data Processing:** Leveraged **Spark** for TB-scale data processing and **Airflow** for automated workflow orchestration.
-* **Digital Transformation:** drove the standardization and digital transformation of HMC’s business decision infrastructure.
 
+- **Distributed ETL Systems:** Designed and built scalable ETL pipelines using **Python, Azure Data Factory, and Databricks**.
+- **Big Data Processing:** Leveraged **Spark** for TB-scale data processing and **Airflow** for automated workflow orchestration.
+- **Digital Transformation:** drove the standardization and digital transformation of HMC’s business decision infrastructure.
 
 <div class="skill-group">
   <div class="skill-list">
