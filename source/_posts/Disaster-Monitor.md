@@ -79,7 +79,10 @@ tags:
   <div class="cv-glass-card">
     <p class="cv-glass-title"><b>Problem and Work Scope</b></p>
     <p class="cv-glass-desc">
-      When disasters strike, authoritative sources like government seismic bureaus capture the facts &mdash; but the real texture of public reaction, eyewitness accounts, and social sentiment is scattered across platforms like Weibo and SINA News, largely untapped and unstructured. This undergraduate thesis project addresses that gap by designing and deploying a <b>full-stack data visualization website</b> that ingests multi-source social media data, fuses it into structured earthquake &ldquo;events&rdquo;, and presents them through an interactive, multi-dimensional front-end system &mdash; covering maps, knowledge graphs, heat rivers, word clouds, timelines, and real-time opinion feeds in one unified platform.
+      When disasters strike, authoritative sources like government seismic bureaus capture the facts &mdash; but the real texture of public reaction, eyewitness accounts, and social sentiment is scattered across platforms like Weibo and SINA News, largely untapped and unstructured.
+    </p>
+    <p class="cv-glass-desc">
+      This undergraduate thesis project addresses that gap by designing and deploying a <b>full-stack data visualization website</b> that ingests multi-source social media data, fuses it into structured earthquake &ldquo;events&rdquo;, and presents them through an interactive, multi-dimensional front-end system &mdash; covering maps, knowledge graphs, heat rivers, word clouds, timelines, and real-time opinion feeds in one unified platform.
     </p>
   </div>
 </div>

@@ -1820,9 +1820,10 @@ hexo.extend.injector.register(
                     <div class="cv-skill-divider"></div>
 
                     <div class="cv-sidebar-tags">
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Network Eng</div>
-                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> AI Coding</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Network Engineering</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-gears"></i> DevOps</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-brain"></i> AI Coding</div>
+                        <div class="cv-sidebar-tag"><i class="fa-solid fa-rectangle-code"></i> Prompt Engineering</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-message-bot"></i> Automation</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-block-brick-fire"></i> Network Security</div>
                         <div class="cv-sidebar-tag"><i class="fa-solid fa-network-wired"></i> Data Center Operation</div>
@@ -1871,7 +1872,7 @@ hexo.extend.injector.register(
                               </svg>
                               zsh — Contact
                             </p>
-                            <button class="copy_toggle" tabindex="-1" type="button" onclick="navigator.clipboard.writeText('josephliao2023@gmail.com'); alert('Email copied!');">
+                            <button class="copy_toggle" tabindex="-1" type="button" onclick="navigator.clipboard.writeText('jianxian2023@gmail.com'); alert('Email copied!');">
                               <svg width="16px" height="16px" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none">
                                 <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
                                 <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
@@ -1882,7 +1883,7 @@ hexo.extend.injector.register(
                             <pre class="contact-pre">
                               <code>~ </code>
                               <code>Email </code>
-                              <code class="contact-cmd" data-cmd="josephliao2023@gmail.com"></code>
+                              <code class="contact-cmd" data-cmd="jianxian2023@gmail.com"></code>
                             </pre>
                           </div>
                         </div>
@@ -2008,7 +2009,7 @@ hexo.extend.injector.register(
                         <img src="/images/cta.png" alt="cta">
                     </div>
                      <div class="cv-content-box">
-                       <div class="cv-card-header"><span class="cv-role">China Telecom</span><span class="cv-time">Aug 2023 - Now</span></div>
+                       <div class="cv-card-header"><span class="cv-role">China Telecom Americas</span><span class="cv-time">Aug 2023 - Now</span></div>
                        <div class="cv-card-subheader"><span class="cv-org">Network & Automation Engineer</span></div>
                        <div class="cv-desc">Building AI and automation-driven backbone network operations platforms and NOC toolings, to centralize monitoring, accelerate all layers network troubleshooting, and scale infrastructure management.</div>
                      </div>
@@ -2023,24 +2024,24 @@ hexo.extend.injector.register(
                       <div class="cv-desc">Driving investment research and portfolio intelligence through scalable ETL pipelines, predictive analytics, and graph-based financial data platforms built from 1,200+ hedge fund reports.</div>
                     </div>
                   </a>
-                  <a href="/2023/02/18/Data-Scientist-Intern-LVMH/" class="cv-card">
+                  <a href="/2022/05/01/Tencent/" class="cv-card">
                     <div class="cv-logo-box">
-                        <img src="/images/lvmh.jpg" alt="lvmg">
+                        <img src="/images/Tencent_logo.png" alt="tencent">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">LVMH</span><span class="cv-time">Feb 2023 - Jul 2023</span></div>
-                      <div class="cv-card-subheader"><span class="cv-org">Data Scientist Internship</span></div>
-                      <div class="cv-desc">Enabling data-driven growth for luxury retail by applying advanced analytics to user segmentation, forecasting, and performance marketing optimization.</div>
+                      <div class="cv-card-header"><span class="cv-role">Tencent</span><span class="cv-time">May 2022 - Aug 2022</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Software Engineer Intern</span></div>
+                      <div class="cv-desc">A React Native mobile app with 30+ components and Keycloak auth, developed Golang/PostgreSQL backend for enterprise reimbursement workflows, and improved codebase efficiency by 12% via CI/CD automation with Jenkins.</div>
                     </div>
                   </a>
-                  <a href="/2021/12/13/Data-Expert-Intern-Signify/" class="cv-card">
+                  <a href="/2020/06/01/CT-CheLuLu/" class="cv-card">
                     <div class="cv-logo-box">
-                        <img src="/images/signifycompany_logo.jpg" alt="signify">
+                        <img src="/images/cta.png" alt="cta">
                     </div>
                     <div class="cv-content-box">
-                      <div class="cv-card-header"><span class="cv-role">Signify</span><span class="cv-time">Dec 2021 - Sep 2022</span></div>
-                      <div class="cv-card-subheader"><span class="cv-org">Data Expert Internship</span></div>
-                      <div class="cv-desc">Advancing supply-chain efficiency and digital transformation through automation, analytics, and operational data optimization.</div>
+                      <div class="cv-card-header"><span class="cv-role">China Telecom · Internet of Vehicle</span><span class="cv-time">Jun 2020 - Sep 2020</span></div>
+                      <div class="cv-card-subheader"><span class="cv-org">Backend Software Engineer Intern</span></div>
+                      <div class="cv-desc">Built Java backend services on SSM framework to monitor 12 production servers, developed SMS alerting and two-factor authentication with Redis cache, improving security and login speed by 25%.</div>
                     </div>
                   </a>
                 </div>

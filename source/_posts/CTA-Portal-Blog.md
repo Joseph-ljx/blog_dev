@@ -1,7 +1,7 @@
 ---
-title: 🌐 NOC Operations Portal @ China Telecom Americas
+title: 🌐 NOC Operations Portal @ CTA
 date: 2026-06-04
-cover: /images/cta-portal-cover.jpg
+cover: /images/cta-portal-cover.png
 categories:
   - Projects
 tags:
@@ -79,7 +79,10 @@ tags:
   <div class="cv-glass-card">
     <p class="cv-glass-title"><b>Problem and Work Scope</b></p>
     <p class="cv-glass-desc">
-      China Telecom Americas' NOC team managed a sprawling network of hundreds of circuits, recurring vendor maintenance windows, and high-volume OTN alarms entirely through manual email triage, disconnected spreadsheets, and ad-hoc tooling &mdash; creating critical blind spots and delayed incident response. This motivated the design and development of a <b>production-grade, full-stack internal web portal</b> that consolidates circuit inventory, automates alarm handling, orchestrates maintenance workflows, and embeds real-time monitoring visibility into a single unified platform.
+      China Telecom Americas' NOC team managed a sprawling network of hundreds of circuits, recurring vendor maintenance windows, and high-volume OTN alarms entirely through manual email triage, disconnected spreadsheets, and ad-hoc tooling &mdash; creating critical blind spots and delayed incident response. 
+    </p>
+    <p class="cv-glass-desc">
+      This motivated the design and development of a <b>production-grade, full-stack internal web portal</b> that consolidates circuit inventory, automates alarm handling, orchestrates maintenance workflows, and embeds real-time monitoring visibility into a single unified platform.
     </p>
   </div>
 </div>
@@ -87,28 +90,32 @@ tags:
 ---
 
 ### 🏗️ Full-Stack Portal Engineering
-* **End-to-End Development:** Designed and built a production Django web application from scratch, serving as the **single source of truth** for all network infrastructure, circuit inventory, and NOC operational workflows across CTA's US data centers.
-* **Rich Relational Data Model:** Architected a PostgreSQL schema spanning multi-type circuits (CN2, 163, DWDM, Ciena, Peering, IRU), data center infrastructure (cages, racks, devices, panels/ports), maintenance records, inventory, vendor contacts, and OTN alarms &mdash; with full **audit trails** via change logs and parent/child circuit relationships.
-* **Advanced Admin Interface:** Delivered a feature-rich operator UI using **Unfold** with filterable list views, bulk actions, Excel import/export (django-import-export), and role-based access control for NOC staff and administrators.
-* **REST API Layer:** Built Django REST Framework endpoints to expose task triggers and data feeds, enabling programmatic workflow control and integration with external dashboards.
+
+- **End-to-End Development:** Designed and built a production Django web application from scratch, serving as the **single source of truth** for all network infrastructure, circuit inventory, and NOC operational workflows across CTA's US data centers.
+- **Rich Relational Data Model:** Architected a PostgreSQL schema spanning multi-type circuits (CN2, 163, DWDM, Ciena, Peering, IRU), data center infrastructure (cages, racks, devices, panels/ports), maintenance records, inventory, vendor contacts, and OTN alarms &mdash; with full **audit trails** via change logs and parent/child circuit relationships.
+- **Advanced Admin Interface:** Delivered a feature-rich operator UI using **Unfold** with filterable list views, bulk actions, Excel import/export (django-import-export), and role-based access control for NOC staff and administrators.
+- **REST API Layer:** Built Django REST Framework endpoints to expose task triggers and data feeds, enabling programmatic workflow control and integration with external dashboards.
 
 ### 🤖 Intelligent Automation & Alarm Processing
-* **OTN Alarm Engine:** Implemented a **Celery**-powered background worker that polls OTN alarm emails from CTG INMS every **5 minutes**, parses multi-table HTML email bodies with BeautifulSoup, extracts affected customer and supplier data, updates circuit health states (outage / recovery), deduplicates by Exchange message-id, and fires **reply-all HTML notifications** with enriched context &mdash; eliminating manual email triage entirely.
-* **Vendor Maintenance Automation:** Integrated with **Microsoft Exchange** via exchangelib to auto-scan inbound vendor maintenance notifications, extract circuit IDs and maintenance windows, and create structured database records &mdash; drastically reducing manual data-entry workload.
-* **Scheduled Reporting Pipeline:** Automated daily NOC environment health reports (cage temperature, UPS, rectifier status) and weekly inventory low-stock alerts via **Celery Beat**, with formatted HTML email delivery to relevant stakeholders on schedule.
-* **Timezone-Aware Processing:** Handled multi-timezone coordination between Beijing (CST) and Los Angeles (PST/PDT), ensuring all alarm timestamps and maintenance windows are correctly converted and displayed.
+
+- **OTN Alarm Engine:** Implemented a **Celery**-powered background worker that polls OTN alarm emails from CTG INMS every **5 minutes**, parses multi-table HTML email bodies with BeautifulSoup, extracts affected customer and supplier data, updates circuit health states (outage / recovery), deduplicates by Exchange message-id, and fires **reply-all HTML notifications** with enriched context &mdash; eliminating manual email triage entirely.
+- **Vendor Maintenance Automation:** Integrated with **Microsoft Exchange** via exchangelib to auto-scan inbound vendor maintenance notifications, extract circuit IDs and maintenance windows, and create structured database records &mdash; drastically reducing manual data-entry workload.
+- **Scheduled Reporting Pipeline:** Automated daily NOC environment health reports (cage temperature, UPS, rectifier status) and weekly inventory low-stock alerts via **Celery Beat**, with formatted HTML email delivery to relevant stakeholders on schedule.
+- **Timezone-Aware Processing:** Handled multi-timezone coordination between Beijing (CST) and Los Angeles (PST/PDT), ensuring all alarm timestamps and maintenance windows are correctly converted and displayed.
 
 ### 📊 Network Visibility & Monitoring
-* **Grafana & Akvorado Integration:** Embedded live **Grafana** metric dashboards and **Akvorado** netflow traffic visualizations directly into the portal, giving NOC engineers a unified view of circuit utilization and traffic patterns without switching tools.
-* **Real-Time Circuit State Tracking:** Implemented circuit health state management across the full network inventory, with a **strictly-monitored flag** for high-value services enabling prioritized alerting and targeted notifications.
-* **Power & UPS Monitoring:** Captured SNMP trap alarms from PDUs and UPS units, tracking source, trap type, and system uptime &mdash; surfaced directly in the portal dashboard.
-* **Geographic Topology Mapping:** Mapped data center cage locations with geographic coordinates for visual infrastructure planning and cross-site connectivity awareness.
+
+- **Grafana & Akvorado Integration:** Embedded live **Grafana** metric dashboards and **Akvorado** netflow traffic visualizations directly into the portal, giving NOC engineers a unified view of circuit utilization and traffic patterns without switching tools.
+- **Real-Time Circuit State Tracking:** Implemented circuit health state management across the full network inventory, with a **strictly-monitored flag** for high-value services enabling prioritized alerting and targeted notifications.
+- **Power & UPS Monitoring:** Captured SNMP trap alarms from PDUs and UPS units, tracking source, trap type, and system uptime &mdash; surfaced directly in the portal dashboard.
+- **Geographic Topology Mapping:** Mapped data center cage locations with geographic coordinates for visual infrastructure planning and cross-site connectivity awareness.
 
 ### 🔧 Operational Workflow Systems
-* **Maintenance Lifecycle Management:** Built a full-lifecycle internal ticketing system (Initiating → In_Progress → Postponed → Rolled_Back → Solved → Closed) with severity levels (Sev1–Sev3, Minor), multi-party assignments (Initiator / Reviewer / Follower), before/after configuration snapshots, step-by-step work progress logs, file attachments, and ZD/vendor ticket cross-referencing.
-* **Moratorium Period Enforcement:** Developed change-freeze window management with automated vendor moratorium email notifications, preventing unauthorized changes during critical blackout periods.
-* **Inventory & Asset Management:** Delivered multi-category inventory tracking (office supplies, fiber equipment, cage accessories) with stock thresholds, unit pricing, supplier links, and a purchase request workflow (Pending → Ordered → Received → Cancelled).
-* **Follow-Up Ticket System:** Built a lightweight follow-up tracking module for ongoing incidents and customer escalations, with circuit linkage, priority levels (IMPORTANT / CUSTOMER / NETWORK / OTHER), file attachments, and external reference URLs.
+
+- **Maintenance Lifecycle Management:** Built a full-lifecycle internal ticketing system (Initiating → In_Progress → Postponed → Rolled_Back → Solved → Closed) with severity levels (Sev1–Sev3, Minor), multi-party assignments (Initiator / Reviewer / Follower), before/after configuration snapshots, step-by-step work progress logs, file attachments, and ZD/vendor ticket cross-referencing.
+- **Moratorium Period Enforcement:** Developed change-freeze window management with automated vendor moratorium email notifications, preventing unauthorized changes during critical blackout periods.
+- **Inventory & Asset Management:** Delivered multi-category inventory tracking (office supplies, fiber equipment, cage accessories) with stock thresholds, unit pricing, supplier links, and a purchase request workflow (Pending → Ordered → Received → Cancelled).
+- **Follow-Up Ticket System:** Built a lightweight follow-up tracking module for ongoing incidents and customer escalations, with circuit linkage, priority levels (IMPORTANT / CUSTOMER / NETWORK / OTHER), file attachments, and external reference URLs.
 
 ---
 
@@ -217,23 +224,24 @@ tags:
 
 The platform runs automated tasks across the full NOC operational lifecycle:
 
-| Category | Tasks | Frequency |
-|---|---|---|
-| **OTN Alarm Processing** | Scan CTG INMS alarm emails, parse HTML tables, update circuit outage / recovery states, send reply-all notifications | Every 5 min |
-| **Vendor Maintenance** | Scan vendor maintenance email accounts, extract circuit IDs & time windows, create structured DB records | Hourly |
-| **Daily NOC Reports** | Aggregate cage environment metrics (temperature, UPS, rectifier), compile alarm statistics, HTML email delivery to stakeholders | Daily |
-| **Inventory Alerts** | Low-stock threshold scan across all categories, generate purchase request notifications | Weekly (1st Wed) |
-| **Moratorium Notifications** | Change-freeze start / end alerts to vendor contacts, DLR rollback tracking | Event-driven |
-| **Monthly Reports** | IP traffic & transport utilization report archival with multi-file attachments | Monthly |
+| Category                     | Tasks                                                                                                                           | Frequency        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| **OTN Alarm Processing**     | Scan CTG INMS alarm emails, parse HTML tables, update circuit outage / recovery states, send reply-all notifications            | Every 5 min      |
+| **Vendor Maintenance**       | Scan vendor maintenance email accounts, extract circuit IDs & time windows, create structured DB records                        | Hourly           |
+| **Daily NOC Reports**        | Aggregate cage environment metrics (temperature, UPS, rectifier), compile alarm statistics, HTML email delivery to stakeholders | Daily            |
+| **Inventory Alerts**         | Low-stock threshold scan across all categories, generate purchase request notifications                                         | Weekly (1st Wed) |
+| **Moratorium Notifications** | Change-freeze start / end alerts to vendor contacts, DLR rollback tracking                                                      | Event-driven     |
+| **Monthly Reports**          | IP traffic & transport utilization report archival with multi-file attachments                                                  | Monthly          |
 
 ---
 
 ### Security & Operational Design
-* **Role-Based Access Control:** Admin flag at the user model level gates sensitive operations; staff authentication required for maintenance ticket creation, circuit modifications, and system task triggers.
-* **Audit Trails:** All circuit and infrastructure changes are recorded in a dedicated change log with timestamps, modified fields, and operator identity &mdash; providing full forensic traceability.
-* **Alarm Deduplication:** OTN alarm engine performs message-id-based deduplication against the Exchange server to prevent duplicate DB records and notification storms across polling cycles.
-* **Structured Error Logging:** Application-level logging separated by module (`debug.log`, `otn_alarm.log`) with automatic log rotation, ensuring operational visibility without uncontrolled disk growth.
-* **Systemd Service Supervision:** All production processes (Gunicorn, PostgreSQL, Redis, Celery worker, Celery Beat) run as independent systemd units with automatic restart-on-failure and 5-second recovery delay, ensuring high availability.
+
+- **Role-Based Access Control:** Admin flag at the user model level gates sensitive operations; staff authentication required for maintenance ticket creation, circuit modifications, and system task triggers.
+- **Audit Trails:** All circuit and infrastructure changes are recorded in a dedicated change log with timestamps, modified fields, and operator identity &mdash; providing full forensic traceability.
+- **Alarm Deduplication:** OTN alarm engine performs message-id-based deduplication against the Exchange server to prevent duplicate DB records and notification storms across polling cycles.
+- **Structured Error Logging:** Application-level logging separated by module (`debug.log`, `otn_alarm.log`) with automatic log rotation, ensuring operational visibility without uncontrolled disk growth.
+- **Systemd Service Supervision:** All production processes (Gunicorn, PostgreSQL, Redis, Celery worker, Celery Beat) run as independent systemd units with automatic restart-on-failure and 5-second recovery delay, ensuring high availability.
 
 <div class="skill-group">
   <div class="skill-list">

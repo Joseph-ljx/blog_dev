@@ -1,5 +1,5 @@
 ---
-title: 💼 Network Engineer / Automation System Developer @ China Telecom
+title: 💼 Network Engineer / Automation System Developer @ CTA
 date: 2023-08-20
 cover: /images/NE_3.png
 categories:
@@ -95,21 +95,25 @@ tags:
 ---
 
 ### 🌐 Network Operations Across AS36678
-* **Backbone Operations:** Managed and operated Layer 1-3 infrastructure including **OTN, SDH, Ethernet, and IP/MPLS VPN** services across the **AS36678** backbone network.
-* **Incident Response:** Performed operational checks, troubleshooting, and service validation for routers, switches, transport links, and customer-facing circuits.
-* **Coverage:** Supported a distributed environment spanning **10 data center cages and 100+ network devices** across the United States.
+
+- **Backbone Operations:** Managed and operated Layer 1-3 infrastructure including **OTN, SDH, Ethernet, and IP/MPLS VPN** services across the **AS36678** backbone network.
+- **Incident Response:** Performed operational checks, troubleshooting, and service validation for routers, switches, transport links, and customer-facing circuits.
+- **Coverage:** Supported a distributed environment spanning **10 data center cages and 100+ network devices** across the United States.
 
 ### 🤖 Automation Engineering For NOC Workflows
-* **Python Automation:** Developed automation scripts to configure devices, execute batch commands, perform health checks, and accelerate incident investigation.
-* **Scheduled Pipelines:** Built **Linux crontab + Python** workflows to parse vendor hotcut emails, generate structured reports, and trigger automated alerts for NOC teams.
-* **Routing Assurance:** Implemented **RPKI-based prefix validation** and automated operational checks to reduce routing risks and improve troubleshooting speed.
+
+- **Python Automation:** Developed automation scripts to configure devices, execute batch commands, perform health checks, and accelerate incident investigation.
+- **Scheduled Pipelines:** Built **Linux crontab + Python** workflows to parse vendor hotcut emails, generate structured reports, and trigger automated alerts for NOC teams.
+- **Routing Assurance:** Implemented **RPKI-based prefix validation** and automated operational checks to reduce routing risks and improve troubleshooting speed.
 
 ### 🏗️ Operations Platform Development
-* **Centralized Platform:** Designed and implemented a monitoring and operations platform using **Django Admin + PostgreSQL** with RESTful APIs.
-* **Operational Visibility:** Delivered device and circuit inventory, rack and cage topology mapping, operational logs, and UPS **SNMP trap** monitoring in one place.
-* **Workflow Support:** Enabled collaboration across operations by tracking tasks, changes, and infrastructure status through a unified backend system.
+
+- **Centralized Platform:** Designed and implemented a monitoring and operations platform using **Django Admin + PostgreSQL** with RESTful APIs.
+- **Operational Visibility:** Delivered device and circuit inventory, rack and cage topology mapping, operational logs, and UPS **SNMP trap** monitoring in one place.
+- **Workflow Support:** Enabled collaboration across operations by tracking tasks, changes, and infrastructure status through a unified backend system.
 
 ### 🧩 Key System Architecture
+
 #### Network Automation & Monitoring Platform (AS36678)
 
 Designed and implemented an **automation and monitoring platform** to centrally manage network infrastructure across **10 data center cages and 100+ backbone devices** in the AS36678 network.  
@@ -157,10 +161,10 @@ The system provides **topology visualization, configuration automation, alarm mo
 
 #### Core Features
 
-* **Network Topology Monitoring:** Real-time visualization of data center cages, racks, device connections, and health status for interfaces, circuits, and routing sessions.
-* **Configuration Automation:** Batch command execution on network devices with **Netmiko / Nornir**, plus automated validation and operational checks.
-* **Alarm & Event Handling:** Device health monitoring via **SNMP traps**, circuit alerting, and automated notifications for NOC engineers.
-* **Asset & Operations Management:** Centralized inventory records, topology mapping, change logging, and workflow tracking for daily operations.
+- **Network Topology Monitoring:** Real-time visualization of data center cages, racks, device connections, and health status for interfaces, circuits, and routing sessions.
+- **Configuration Automation:** Batch command execution on network devices with **Netmiko / Nornir**, plus automated validation and operational checks.
+- **Alarm & Event Handling:** Device health monitoring via **SNMP traps**, circuit alerting, and automated notifications for NOC engineers.
+- **Asset & Operations Management:** Centralized inventory records, topology mapping, change logging, and workflow tracking for daily operations.
 
 #### Automation Pipeline
 

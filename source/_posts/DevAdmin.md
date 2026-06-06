@@ -1,5 +1,5 @@
 ---
-title: DevAdmin — Network Automation & Monitoring Platform
+title: 🌐 DevAdmin — Network Automation & Monitoring Platform
 date: 2024-06-01
 cover: /images/DevAdmin_cover.png
 categories:
@@ -88,37 +88,42 @@ tags:
 ---
 
 ### Multi-Vendor Device Management
-* **Unified Inventory:** Centralized device registry supporting **Cisco IOS/XE, IOS XR, NX-OS** and **Juniper Junos** with per-device metadata including location, model, series, connection protocol, and monitoring toggles.
-* **Encrypted Credentials:** All SSH/Telnet and SNMPv3 credentials are encrypted at the field level using **django-cryptography**, ensuring secrets are protected at rest in the database.
-* **Multi-Protocol Access:** Supports SSH, Telnet, SNMPv3, and gNMI connections per device with configurable timeouts and ports, adapting to heterogeneous network environments.
-* **Bulk Onboarding:** Excel-based bulk device import via **openpyxl** allows NOC teams to onboard entire PoPs in a single upload.
+
+- **Unified Inventory:** Centralized device registry supporting **Cisco IOS/XE, IOS XR, NX-OS** and **Juniper Junos** with per-device metadata including location, model, series, connection protocol, and monitoring toggles.
+- **Encrypted Credentials:** All SSH/Telnet and SNMPv3 credentials are encrypted at the field level using **django-cryptography**, ensuring secrets are protected at rest in the database.
+- **Multi-Protocol Access:** Supports SSH, Telnet, SNMPv3, and gNMI connections per device with configurable timeouts and ports, adapting to heterogeneous network environments.
+- **Bulk Onboarding:** Excel-based bulk device import via **openpyxl** allows NOC teams to onboard entire PoPs in a single upload.
 
 ### Real-Time Network Monitoring
-* **Interface Health Tracking:** Continuous monitoring of physical, protocol, and administrative interface states across all managed devices with automatic change detection and event logging.
-* **BGP Peer Monitoring:** Tracks BGP neighbor sessions including state, peer type (eBGP/iBGP), accepted prefix count, and session uptime &mdash; with alerts on peer state transitions.
-* **IS-IS Neighbor Discovery:** Automated IS-IS adjacency monitoring feeds the backbone link auto-discovery engine, mapping the network topology in real time.
-* **RPKI Validation:** Monitors RPKI sessions on edge routers to ensure route origin validation is active and healthy, supporting **MANRS** compliance.
-* **VLAN & MAC Tracking:** Layer 2 visibility through VLAN membership and MAC address table collection for switch environments.
-* **Device Reachability:** Scheduled ICMP-based reachability checks (**ping3**) with automatic status flagging and NOC email alerts on device down events.
+
+- **Interface Health Tracking:** Continuous monitoring of physical, protocol, and administrative interface states across all managed devices with automatic change detection and event logging.
+- **BGP Peer Monitoring:** Tracks BGP neighbor sessions including state, peer type (eBGP/iBGP), accepted prefix count, and session uptime &mdash; with alerts on peer state transitions.
+- **IS-IS Neighbor Discovery:** Automated IS-IS adjacency monitoring feeds the backbone link auto-discovery engine, mapping the network topology in real time.
+- **RPKI Validation:** Monitors RPKI sessions on edge routers to ensure route origin validation is active and healthy, supporting **MANRS** compliance.
+- **VLAN & MAC Tracking:** Layer 2 visibility through VLAN membership and MAC address table collection for switch environments.
+- **Device Reachability:** Scheduled ICMP-based reachability checks (**ping3**) with automatic status flagging and NOC email alerts on device down events.
 
 ### Traffic Analytics & Telemetry
-* **SNMPv3 Traffic Polling:** High-frequency interface counter collection (every 5 minutes) via **pysnmp** with SNMPv3 authentication and privacy, stored as raw traffic samples.
-* **Multi-Granularity Aggregation:** Automated aggregation pipeline compresses raw samples into **5-minute, 30-minute, 2-hour, and 1-day** time-series buckets for efficient long-term storage and dashboard rendering.
-* **Akvorado Integration:** Deep traffic flow analytics through integration with the **Akvorado** NetFlow/sFlow collector for per-flow visibility.
-* **Telemetry Subscriptions:** gNMI-based model-driven telemetry with configurable YANG sensor paths and sample intervals per device.
+
+- **SNMPv3 Traffic Polling:** High-frequency interface counter collection (every 5 minutes) via **pysnmp** with SNMPv3 authentication and privacy, stored as raw traffic samples.
+- **Multi-Granularity Aggregation:** Automated aggregation pipeline compresses raw samples into **5-minute, 30-minute, 2-hour, and 1-day** time-series buckets for efficient long-term storage and dashboard rendering.
+- **Akvorado Integration:** Deep traffic flow analytics through integration with the **Akvorado** NetFlow/sFlow collector for per-flow visibility.
+- **Telemetry Subscriptions:** gNMI-based model-driven telemetry with configurable YANG sensor paths and sample intervals per device.
 
 ### ⚙️ Automation Engineering
-* **Nornir Orchestration:** All device interactions are parallelized through the **Nornir** automation framework with **Netmiko** transport, executing tasks concurrently across 100+ devices with configurable worker pools.
-* **TextFSM Parsing:** Structured data extraction from raw CLI output using **TextFSM** templates and **ntc-templates**, covering 10+ command types across Cisco and Juniper platforms.
-* **Daily Configuration Backup:** Automated nightly config collection and versioned storage for all managed devices, with configurable retention and stale config cleanup.
-* **Prefix List & ACL Management:** Automated customer prefix list and ACL generation, validation against IRR/ROA data, and push to edge routers with change verification.
-* **Bogon List Updates:** Daily automated bogon prefix list retrieval and device-level ACL updates to filter invalid routes.
+
+- **Nornir Orchestration:** All device interactions are parallelized through the **Nornir** automation framework with **Netmiko** transport, executing tasks concurrently across 100+ devices with configurable worker pools.
+- **TextFSM Parsing:** Structured data extraction from raw CLI output using **TextFSM** templates and **ntc-templates**, covering 10+ command types across Cisco and Juniper platforms.
+- **Daily Configuration Backup:** Automated nightly config collection and versioned storage for all managed devices, with configurable retention and stale config cleanup.
+- **Prefix List & ACL Management:** Automated customer prefix list and ACL generation, validation against IRR/ROA data, and push to edge routers with change verification.
+- **Bogon List Updates:** Daily automated bogon prefix list retrieval and device-level ACL updates to filter invalid routes.
 
 ### Intelligent Alerting System
-* **State-Change Detection:** The backend engine maintains in-memory snapshots of the previous monitoring cycle and performs diff-based change detection &mdash; only true state transitions trigger alerts.
-* **14 Email Templates:** Purpose-built notification templates covering device down, interface flap, BGP peer loss, backbone circuit disruption, RPKI session failure, config change review, and more.
-* **Exchange Integration:** Email delivery via **Microsoft Exchange** using OAuth/NTLM authentication through the **exchangelib** library, with per-device notification recipient lists.
-* **Event Log Retention:** All network events are timestamped and stored in a queryable event log with 7+ day retention for post-incident analysis.
+
+- **State-Change Detection:** The backend engine maintains in-memory snapshots of the previous monitoring cycle and performs diff-based change detection &mdash; only true state transitions trigger alerts.
+- **14 Email Templates:** Purpose-built notification templates covering device down, interface flap, BGP peer loss, backbone circuit disruption, RPKI session failure, config change review, and more.
+- **Exchange Integration:** Email delivery via **Microsoft Exchange** using OAuth/NTLM authentication through the **exchangelib** library, with per-device notification recipient lists.
+- **Event Log Retention:** All network events are timestamped and stored in a queryable event log with 7+ day retention for post-incident analysis.
 
 ### Platform Architecture
 
@@ -220,20 +225,21 @@ tags:
 
 The platform runs **24 cron-driven automated tasks** that cover the full operational lifecycle:
 
-| Category | Tasks | Frequency |
-|---|---|---|
-| **Health Monitoring** | Device reachability, interface info, service checks, syslog server health | Hourly / 2-hourly |
-| **Traffic Collection** | SNMPv3 interface counter polling, multi-granularity aggregation | Every 5 minutes |
-| **Configuration Mgmt** | Daily config backup, outdated config cleanup, config diff detection | Daily |
-| **Routing Security** | Bogon prefix updates, ROA CSV sync, MANRS compliance checks | Daily |
-| **Customer Operations** | Prefix list/ACL updates, customer service validation, change task review | On-demand / Daily |
-| **Log & Diagnostics** | C8000 show-tech retrieval, log collection, backbone stability analysis | Periodic |
+| Category                | Tasks                                                                     | Frequency         |
+| ----------------------- | ------------------------------------------------------------------------- | ----------------- |
+| **Health Monitoring**   | Device reachability, interface info, service checks, syslog server health | Hourly / 2-hourly |
+| **Traffic Collection**  | SNMPv3 interface counter polling, multi-granularity aggregation           | Every 5 minutes   |
+| **Configuration Mgmt**  | Daily config backup, outdated config cleanup, config diff detection       | Daily             |
+| **Routing Security**    | Bogon prefix updates, ROA CSV sync, MANRS compliance checks               | Daily             |
+| **Customer Operations** | Prefix list/ACL updates, customer service validation, change task review  | On-demand / Daily |
+| **Log & Diagnostics**   | C8000 show-tech retrieval, log collection, backbone stability analysis    | Periodic          |
 
 ### Security & Operational Design
-* **Field-Level Encryption:** All device credentials and SNMPv3 secrets encrypted at the database column level, not just at transport.
-* **Per-Device Monitoring Toggles:** Granular control over which monitoring features are active per device (interface, BGP, ISIS, RPKI, VLAN, telemetry, config backup, alarm).
-* **RPKI & MANRS:** Automated ROA validation and bogon filtering to maintain routing security posture in compliance with MANRS (Mutually Agreed Norms for Routing Security).
-* **Audit Trail:** Comprehensive event logging with timestamped records of all state changes, configuration modifications, and operational actions.
+
+- **Field-Level Encryption:** All device credentials and SNMPv3 secrets encrypted at the database column level, not just at transport.
+- **Per-Device Monitoring Toggles:** Granular control over which monitoring features are active per device (interface, BGP, ISIS, RPKI, VLAN, telemetry, config backup, alarm).
+- **RPKI & MANRS:** Automated ROA validation and bogon filtering to maintain routing security posture in compliance with MANRS (Mutually Agreed Norms for Routing Security).
+- **Audit Trail:** Comprehensive event logging with timestamped records of all state changes, configuration modifications, and operational actions.
 
 <div class="skill-group">
   <div class="skill-list">
