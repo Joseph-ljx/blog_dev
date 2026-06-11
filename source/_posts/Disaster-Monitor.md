@@ -1,6 +1,6 @@
 ---
 title: 🌍 Natural Disaster Monitor @ BUPT
-date: 2023-06-05
+date: 2021-06-05
 cover: /images/disaster-monitor.png
 categories:
   - Projects
