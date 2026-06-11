@@ -144,7 +144,22 @@ layout: "about"
 
 Full-stack internal platform for managing the AS36678 backbone. Provides real-time topology visualization, batch configuration automation (Netmiko / Nornir), SNMP alarm monitoring, RPKI validation, circuit and asset inventory, and LLM-assisted network troubleshooting — covering **100+ backbone devices across 10 US data center cages**.
 
-**Stack:** Python · Django · PostgreSQL · Netmiko · Nornir · TextFSM · Kafka · Redis · Docker · React
+**Stack:** Python · Django · PostgreSQL · Netmiko · Nornir · TextFSM · Celery · Redis · Docker
+
+---
+
+<div class="job-header">
+  <h4>Network Automation & Monitoring Platform (AS36678)</h4>
+  <div class="job-meta">
+    <span><i class="fa-regular fa-building"></i> China Telecom Americas</span>
+    <span class="separator">|</span>
+    <span><i class="fa-regular fa-calendar"></i> 2023 – Present</span>
+  </div>
+</div>
+
+Python-based automation framework for managing **100+ multi-vendor backbone devices** across the AS36678 network. Handles batch command execution (Netmiko / Nornir), structured CLI output parsing (TextFSM), vendor hotcut email parsing with auto-alert dispatch, RPKI prefix validation, and scheduled health-check pipelines — replacing manual NOC workflows with reliable, auditable automation.
+
+**Stack:** Python · Netmiko · Nornir · TextFSM · Linux Crontab · SNMP · RPKI · PostgreSQL
 
 ---
 
