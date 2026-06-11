@@ -125,7 +125,7 @@ layout: "about"
 
 - **CCNP** — Cisco Certified Network Professional
 - **CCNA** — Cisco Certified Network Associate
-- **CFA lv1** — Chartered Financial Analyst (level 1)
+- **CFA (lv1)** — Chartered Financial Analyst (level 1)
 - **Patent:** System and Apparatus for Natural Disaster Public Sentiment Analysis — _China Invention Patent ZL 2020 1 1494854.1 (2022)_
 - **Nomination:** The 38th CCF China National Database Academic Conference (NDBC 2021)
 
